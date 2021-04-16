@@ -75,30 +75,6 @@ img {
   margin-right: 45px;
 }
 
-.site-nav-list .link-current {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  color: var(--accent-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.site-nav-list .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  color: var(--title-text-color: #212121;)
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 .contacts-nav {
   display: flex;
   margin-left: auto;
@@ -118,7 +94,28 @@ img {
 
   color: #2196f3;
 }
+.site-nav-list .link-current {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--accent-color);
 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #000000;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .site-nav-list .link:hover,
 .site-nav-list .link:focus {
   color: var(--accent-color);
