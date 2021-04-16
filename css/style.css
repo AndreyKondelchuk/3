@@ -77,8 +77,8 @@ img {
 
 .site-nav-list .link-current {
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--accent-color);
 
@@ -92,7 +92,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: #000000;
+  color: var(--title-text-color: #212121;)
 
   font-weight: 500;
   font-size: 14px;
@@ -118,28 +118,7 @@ img {
 
   color: #2196f3;
 }
-.site-nav-list .link-current {
-  display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
-  color: var(--accent-color);
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.site-nav-list .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: #000000;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 .site-nav-list .link:hover,
 .site-nav-list .link:focus {
   color: var(--accent-color);
