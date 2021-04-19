@@ -162,7 +162,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-span {
+.first-logo {
   color: var(--accent-color);
 }
 /*Блок бизнес*/
@@ -220,6 +220,8 @@ span {
 .features .title {
   margin-bottom: 10px;
   color: var(--title-text-color);
+  margin-left: 10px;
+  margin-top: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -229,6 +231,8 @@ span {
 
 .features .text {
   color: var(--primary-text-color);
+  margin-left: 10px;
+  margin-top: 10px;
 
   font-size: 14px;
   line-height: 1.7;
@@ -338,6 +342,7 @@ span {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
 .footer-contacts-list-link {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -394,16 +399,16 @@ span {
   margin-left: 30px;
   margin-top: 30px;
 }
+.examples-link:hover,
+.examples-link:focus {
+  box-shadow: 0 4px 4px 0 var(--primary-text-color);
+}
 .card {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
 }
-.examples-link {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-left: 30px;
-  margin-top: 30px;
-}
+
 .examples-title {
   font-size: 18px;
   line-height: 2;
