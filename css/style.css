@@ -249,7 +249,7 @@ ul {
 }
 
 .image-work:not(:last-child) {
-  flex-basis: calc((100% - 3 * 30px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   width: 370px;
 }
