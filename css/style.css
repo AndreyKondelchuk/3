@@ -319,11 +319,11 @@ ul {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
-.footer,
+
 .footer-address {
   color: #ffffff;
-  background-color: #2f303a;
 
   font-family: Roboto;
   font-style: normal;
@@ -332,15 +332,20 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.footer-logo {
-  color: #ffffff;
 
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+.footer-contacts {
+  margin-right: 70px;
+}
+
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer-contacts-list .link:not(:last-child) {
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-contacts-list-link {
@@ -350,6 +355,7 @@ ul {
 .footer-contacts-list-link:focus {
   color: var(--accent-color);
 }
+
 .filter-button {
   color: var(--title-text-color);
   font-family: inherit;
@@ -422,4 +428,12 @@ ul {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+}
+.link-text {
+  padding: 20px 24px;
+  border-left: 1px solid var(--card-border-line);
+  border-bottom: 1px solid var(--card-border-line);
+  border-right: 1px solid var(--card-border-line);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
