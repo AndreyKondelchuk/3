@@ -193,19 +193,17 @@ ul {
   min-width: 200px;
   margin-top: 0px;
   color: var(--background-color);
-
   background-color: var(--accent-color);
-
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  border-radius: 4px;
   text-decoration: none;
+  border-color: transparent;
 }
+
 .features {
   display: flex;
   justify-content: space-between;
